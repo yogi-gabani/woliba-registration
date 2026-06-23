@@ -1,5 +1,5 @@
 export const isPreviewMode = () =>
-  import.meta.env.DEV && import.meta.env.VITE_DEV_PREVIEW === 'true';
+  import.meta.env.VITE_DEV_PREVIEW === 'true';
 
 export const MOCK_INTERESTS = [
   { id: 1, name: 'Aerobics', interest_type: 'Individual Sports' },
